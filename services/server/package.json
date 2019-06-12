@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "body-parser": "*",
+        "cors": "2.8.4",
+        "express": "4.16.3",
+        "mongoose": "^5.5.14",
+        "nodemon": "1.18.3"
+    },
+    "scripts": {
+        "dev": "nodemon",
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/node": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/register": "^7.4.4"
+    }
+}

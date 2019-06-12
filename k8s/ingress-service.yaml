@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: books-ingress-service
+spec:
+  backend:
+    serviceName: api-cluster-ip-service
+    servicePort: 5000
